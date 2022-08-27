@@ -13,7 +13,7 @@
     :isPlaying="isPlaying"
   />
   <PlayList :songs="songs" @play="play" :current="current" />
-  <Footer text="Copy &copy; 2022" />
+  <Footer text="CopyRight &copy; 2022" />
 </template>
 
 <script>
