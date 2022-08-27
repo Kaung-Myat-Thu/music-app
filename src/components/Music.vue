@@ -6,7 +6,7 @@
     ></div>
     <div class="my-4">
       <span class="text-lg font-semibold">{{ title }}</span> -
-      <span class="text-lg font-semibold">{{ artist }}</span>
+      <span class="text-lg font-semibold italic">{{ artist }}</span>
     </div>
   </div>
 </template>

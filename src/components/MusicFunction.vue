@@ -3,7 +3,9 @@
     <div
       class="hover:bg-gray-200 px-4 py-3 bg-gray-300 rounded-full text-center"
     >
-      <button class="cursor-pointer"><i class="fas fa-backward"></i></button>
+      <button @click="$emit('backward')" class="cursor-pointer">
+        <i class="fas fa-backward"></i>
+      </button>
     </div>
     <div
       class="hover:bg-gray-200 px-5 py-3 bg-gray-300 rounded-full text-center"
@@ -18,7 +20,9 @@
     <div
       class="hover:bg-gray-200 px-4 py-3 bg-gray-300 rounded-full text-center"
     >
-      <button class="cursor-pointer"><i class="fas fa-forward"></i></button>
+      <button @click="$emit('forward')" class="cursor-pointer">
+        <i class="fas fa-forward"></i>
+      </button>
     </div>
   </div>
 </template>
